@@ -17,7 +17,7 @@ try:
         f = open('./config.json',encoding='utf-8')
         t = json.load(f)
     except Exception as e:
-        t = {'name':'中考',"y":"2022",'m':"6",'d':"18"}
+        t = {'name':'中考',"y":"2022",'m':"6",'d':"17"}
         #t = {'name':'中考',"y":"2022",'m':"3",'d':"25"}
     # t['pid'] = os.getpid() 
     
